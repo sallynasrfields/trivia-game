@@ -1,0 +1,148 @@
+*
+{
+	padding:0;
+	border:0;
+	margin:0;
+}
+
+body
+{
+	background-image:url("../images/de.png");
+}
+
+header
+{
+	background-image:url("../images/sakura.png");
+	height:100px;
+	text-align: center;
+	font-size: 40px;
+	color:#a07c75;
+	line-height: 2.5;
+
+
+}
+
+
+.container
+{
+	width:800px;
+	height:580px;
+	background-image:url("../images/divbg.png");
+	margin: auto auto;
+	margin-top:25px;	
+	border-radius: 8px;
+/*	border-width:1px;
+	border:solid;
+	border-color: black;*/
+}
+
+.countDown
+{	
+	width:800px;
+	height:30px;
+	text-align: center;
+	line-height: 1;
+	color:#a07c75;
+	position:relative;
+	top:5px;
+	font-size: 25px;
+	/*border-width:1px;
+	border:solid;
+	border-color: black;*/
+}
+
+.qandaDiv
+{
+	width:100%;
+	height:90%;	
+	margin: 0 auto;
+	/*border-width:1px;
+	border:solid;
+	border-color: black;
+*/
+}
+
+.question
+{
+	width:740px;
+	height:100px;
+	margin:0 auto;
+	margin-top:10px;
+	padding-bottom:60px;
+	color:#a07c75;
+	text-align: center;
+	font-size: 35px;	
+	padding-top:90px;
+	/*border-width:1px;
+	border:solid;
+	border-color: black;*/
+
+
+}
+
+.answer, .rightAnswer
+{
+	width:760px;
+	height:50px;
+	margin:0 auto;
+	text-align: center;
+	font-size: 35px;
+/*	border-width:1px;
+	border:solid;
+	border-color: black;*/
+
+}
+
+div.answer:hover, div.rightAnswer:hover
+{
+	color:green;
+}
+
+
+.displayAnswer
+{
+	width:760px;
+	height:30px;
+	margin:0 auto;
+	color:#a07c75;
+	text-align:center;
+	font-size: 25px;
+/*	border-width:1px;
+	border:solid;
+	border-color: red;
+*/
+ 
+}
+
+img
+{
+	display:block;
+	width:640px;
+	height:480px;
+
+	margin:auto auto;
+	margin-top:2px;
+	border-radius: 8px;
+/*	border-width:1px;
+	border:solid;
+	border-color: red;*/
+
+}
+
+
+
+.status
+{
+	width:760px;
+	height:60px;
+	margin:0 auto;	
+	position:relative;
+	top:160px;
+	color:#a07c75;
+	font-size: 35px;
+	text-align: center;
+/*	border-width:1px;
+	border:solid;
+	border-color: red;*/
+
+}
